@@ -1,6 +1,6 @@
 {
 	"name": "nomocas-loopback-utils",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "small collection of utilities for loopback.io",
 	"main": "index.js",
 	"directories": {
@@ -29,15 +29,15 @@
 		"url": "https://github.com/nomocas/nomocas-loopback-utils/issues"
 	},
 	"homepage": "https://github.com/nomocas/nomocas-loopback-utils",
-	"devDependencies": {
-
-	},
+	"devDependencies": {},
 	"dependencies": {
 		"pretty": "^1.0.0",
 		"yamvish": "^0.11.0"
 	},
-	"maintainers": [{
-		"name": "nomocas",
-		"email": "gilles.coomans@gmail.com"
-	}]
+	"maintainers": [
+		{
+			"name": "nomocas",
+			"email": "gilles.coomans@gmail.com"
+		}
+	]
 }
