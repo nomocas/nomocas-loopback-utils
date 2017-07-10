@@ -1,43 +1,40 @@
 {
-	"name": "nomocas-loopback-utils",
-	"version": "0.1.1",
-	"description": "small collection of utilities for loopback.io",
-	"main": "index.js",
-	"directories": {
-		"test": "test"
-	},
-	"scripts": {
-		"test": "mocha",
-		"bump:patch": " git add -A && git commit -m 'patch bump' && git push && mversion patch -m && git push --tags && npm publish && git push",
-		"bump:minor": " git add -A && git commit -m 'minor bump' && git push && mversion minor -m && git push --tags && npm publish && git push",
-		"bump:major": " git add -A && git commit -m 'major bump' && git push && mversion major -m && git push --tags && npm publish && git push"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/nomocas/nomocas-loopback-utils.git"
-	},
-	"keywords": [
-		"loopback.io",
-		"utils"
-	],
-	"author": {
-		"name": "Gilles Coomans",
-		"email": "gilles.coomans@gmail.com"
-	},
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/nomocas/nomocas-loopback-utils/issues"
-	},
-	"homepage": "https://github.com/nomocas/nomocas-loopback-utils",
-	"devDependencies": {},
-	"dependencies": {
-		"pretty": "^1.0.0",
-		"yamvish": "^0.11.0"
-	},
-	"maintainers": [
-		{
-			"name": "nomocas",
-			"email": "gilles.coomans@gmail.com"
-		}
-	]
+  "name": "nomocas-loopback-utils",
+  "version": "0.1.1",
+  "description": "small collection of utilities for loopback.io",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomocas/nomocas-loopback-utils.git"
+  },
+  "keywords": [
+    "loopback.io",
+    "utils"
+  ],
+  "author": {
+    "name": "Gilles Coomans",
+    "email": "gilles.coomans@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nomocas/nomocas-loopback-utils/issues"
+  },
+  "homepage": "https://github.com/nomocas/nomocas-loopback-utils",
+  "devDependencies": {},
+  "dependencies": {
+    "es6-promisify": "^5.0.0",
+    "nomocas-utils": "^0.3.2"
+  },
+  "maintainers": [
+    {
+      "name": "nomocas",
+      "email": "gilles.coomans@gmail.com"
+    }
+  ]
 }
