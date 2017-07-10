@@ -1,6 +1,6 @@
 {
   "name": "nomocas-loopback-utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "small collection of utilities for loopback.io",
   "main": "index.js",
   "directories": {
